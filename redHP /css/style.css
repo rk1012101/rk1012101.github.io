@@ -1,0 +1,519 @@
+#wrapper{
+  min-width: 1200px;
+  overflow: hidden;
+}
+
+#top{
+  width: 100vw;
+}
+
+#header{
+  width: 100vw;
+  display: flex;
+  position: relative;
+}
+
+.header-menu{
+  text-align: center;
+  display: block;
+}
+
+.header-menu p{
+  font-family: serif;
+  font-size: 24px;
+  letter-spacing: 4px;
+  text-align: center;
+  padding-top: 64px;
+  padding-left: 150px;
+}
+
+.line_box {
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  top: 41%;
+  right: 10%;
+  z-index: 2;
+  background-color: #dcdcdc;
+  border-radius: 35%;
+}
+
+.line {
+  width: 45px;
+  border-top: 2px solid #000;
+  margin-left: 22px;
+  margin-top: 20px;
+}
+
+.line_box a {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  position: absolute;
+}
+
+.menu {
+  width: 100%;
+  display: none;
+  position: relative;
+  text-align: center;
+  margin-top: 38px;
+}
+
+.colorfilter-base {
+    background-color: white;  /* カラーフィルタ効果の色を指定 */
+    display: inline-block;    /* (任意：インラインブロック化したい場合) */
+}
+.colorfilter-image {
+    opacity: 0.3;    /* カラーフィルタ効果の度合いを指定 */
+    display: block;
+}
+
+.menu img{
+  width: 1145px;
+  height: 555px;
+}
+
+.hum-menu {
+  text-align: center;
+  position: absolute;
+  top: 46%;
+  left: 26%;
+}
+
+.hum-menu li {
+  color: #000000;
+  display: inline-block;
+  padding-top: auto;
+  padding-left: 60px;
+  font-size: 40px;
+  font-family: serif;
+}
+
+.top-img{
+  text-align: center;
+  padding-top: 38px;
+  position: relative;
+}
+
+.top-syasinn img{
+  width: 1145px;
+  height: 555px;
+}
+
+.top-kotoba{
+  text-align: left;
+}
+
+.top-kotoba p1{
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  z-index: 1;
+  font-size: 80px;
+  font-family: serif;
+  color: #ffffff;
+}
+
+.top-kotoba p2{
+  position: absolute;
+  top: 48%;
+  left: 15%;
+  z-index: 1;
+  font-size: 104px;
+  font-family: serif;
+  color: #ffffff;
+}
+
+.top-kotoba p3{
+  position: absolute;
+  top: 75%;
+  left: 15%;
+  z-index: 1;
+  font-size: 80px;
+  font-family: serif;
+  color: #ffffff;
+}
+
+#main1{
+  width: 100vw;
+  text-align: center;
+  display: block;
+}
+
+.main1-kotoba{
+  margin-top: 330px;
+  padding-bottom: 30px;
+  display: none;
+}
+
+.main1-kotoba p{
+  font-family: serif;
+  font-size: 32px;
+  letter-spacing: 4px;
+  font-weight: normal;
+}
+
+.main1-1{
+  display: none;
+}
+
+.main1-1 video{
+  width: 700px;
+  height: 392px;
+}
+
+#sub1{
+  width: 100vw;
+  position: relative;
+  display: block;
+  margin-top: 257px;
+}
+
+.hr1{
+  width: 0%;
+  position: absolute;
+  top: -30px;
+  right: 0%;
+}
+
+.hr1 hr{
+  border: solid 1px #000000;
+}
+
+.hr2{
+  width: 1065px;
+  position: absolute;
+  top: 175px;
+  left: -75%;
+}
+
+.hr2 hr{
+  border: solid 1px #000000;
+}
+
+.main2{
+  width: 100vw;
+  text-align: center;
+  position: relative;
+  padding-top: 10px;
+  display: none;
+}
+
+.main2 p1{
+  font-family: serif;
+  font-size: 24px;
+  letter-spacing: 4px;
+  position: absolute;
+  top: 150%;
+  left: 46%;
+  z-index: 1;
+  font-family: serif;
+  color: #000000;
+}
+
+.main2 p2{
+  font-family: serif;
+  font-size: 40px;
+  letter-spacing: 4px;
+  position: absolute;
+  top: 609%;
+  left: 38%;
+  z-index: 1;
+  font-family: serif;
+  color: #000000;
+}
+
+.main2 p3{
+  font-family: serif;
+  font-size: 24px;
+  letter-spacing: 4px;
+  position: absolute;
+  top: 1400%;
+  left: 37%;
+  z-index: 1;
+  font-family: serif;
+  color: #000000;
+}
+
+#gaiyou{
+  width: 100vw;
+  margin-top: 187px;
+  display: block;
+}
+
+.enn1{
+  text-align: center;
+  padding-top: 187px;
+  position: relative;
+  display: none;
+}
+
+.circle{
+  display: inline-block;
+  width: 180px;
+  height: 180px;
+  text-align: center;
+  line-height: 80px;
+  border-radius: 50%;
+  border: solid 2px #000000;
+}
+
+.hr3{
+  width: 290px;
+  text-align: center;
+  position: absolute;
+  top: 72%;
+  left: -40%;
+  z-index: 1;
+}
+
+.hr3 hr{
+  border: solid 1px #000000;
+}
+
+.gaiyou-kotoba{
+  position: absolute;
+  top: 68%;
+  left: 46.8%;
+  z-index: 1;
+  display: none;
+}
+
+.gaiyou-kotoba p{
+  font-family: serif;
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+
+#jigyo{
+  width: 100vw;
+  position: relative;
+  padding-top: 187px;
+  display: block;
+}
+
+.jigyo-haikei{
+  display: none;
+}
+
+.jigyo-haikei img{
+  width: 100vw;
+}
+
+.campas{
+  display: none;
+}
+
+.campas-top{
+  position: absolute;
+  top: 21%;
+  left: 35.5%;
+  z-index: 1;
+}
+
+.campas-top h3{
+  font-family: serif;
+  font-size: 32px;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+.campas-top p{
+  font-family: serif;
+  font-size: 16px;
+  letter-spacing: 4px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.campas-main{
+  display: flex;
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  z-index: 1;
+}
+
+.campas-main img{
+  width: 500px;
+  height: 288px;
+}
+
+.main1-migi{
+  padding-left: 80px;
+}
+
+.enn2{
+  position: relative;
+  text-align: center;
+}
+
+.hr4{
+  width: 290px;
+  text-align: center;
+  position: absolute;
+  top: 45%;
+  left: 144%;
+  z-index: 1;
+}
+
+.hr4 hr{
+  border: solid 1px #000000;
+}
+
+.campas-kotoba{
+  position: absolute;
+  top: 37%;
+  left: 42%;
+  z-index: 1;
+  display: none;
+}
+
+.campas-kotoba p{
+  font-family: serif;
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+
+.main1-migi-bun p{
+  font-family: serif;
+  font-size: 16px;
+  letter-spacing: 4px;
+  line-height: 30px;
+  text-align: center;
+  padding-top: 22px;
+}
+
+.create{
+  display: none;
+}
+
+.create-top{
+  position: absolute;
+  top: 60%;
+  left: 43%;
+  z-index: 1;
+}
+
+.create-top h3{
+  font-family: serif;
+  font-size: 32px;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+.create-top p{
+  font-family: serif;
+  font-size: 16px;
+  letter-spacing: 4px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.create-main{
+  display: flex;
+  position: absolute;
+  top: 69%;
+  left: 15%;
+  z-index: 1;
+}
+
+.create-main img{
+  width: 500px;
+  height: 288px;
+}
+
+.main2-migi{
+  padding-left: 80px;
+}
+
+.hr5{
+  width: 290px;
+  text-align: center;
+  position: absolute;
+  top: 45%;
+  left: 144%;
+  z-index: 1;
+}
+
+.hr5 hr{
+  border: solid 1px #000000;
+}
+
+.create-kotoba{
+  position: absolute;
+  top: 37%;
+  left: 42%;
+  z-index: 1;
+  display: none;
+}
+
+.create-kotoba p{
+  font-family: serif;
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+
+.main2-migi-bun p{
+  font-family: serif;
+  font-size: 16px;
+  letter-spacing: 4px;
+  line-height: 30px;
+  text-align: center;
+  padding-top: 22px;
+}
+
+.sonota{
+  text-align: center;
+  padding-top: 125px;
+  padding-bottom: 265px;
+  display: block;
+}
+
+.katsudou{
+  display: none;
+}
+
+.katsudou h3{
+  font-family: serif;
+  font-size: 32px;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+.katsudou img{
+  width: 500px;
+  height: 288px;
+  padding-top: 25px;
+  margin: 0 auto;
+}
+
+.katsudou p{
+  font-family: serif;
+  font-size: 18px;
+  letter-spacing: 4px;
+  line-height: 30px;
+  text-align: center;
+  padding-top: 22px;
+}
+
+.slick-prev::before,
+.slick-next::before{
+  color: #000000!important;
+}
+
+.copy{
+  width: 100vw;
+  display: block;
+}
+
+.copy p{
+  font-family: serif;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 2px;
+  text-align: center;
+  line-height: 60px;
+  background-color: #c0c0c0;
+}

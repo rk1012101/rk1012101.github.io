@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+	  <script>
+        $(function(){
+          $(".line_box").on("click",function(){ /*　ハンバーガーメニューを押すとハンバーガーメニューとヘッダー以外を非表示　*/
+            $(".top-img").toggle(1000);
+            $("#main1").toggle();
+            $("#sub1").toggle();
+            $("#gaiyou").toggle();
+            $("#jigyo").toggle();
+            $(".sonota").toggle();
+            $(".copy").toggle();
+            $(".menu").toggle(1000);
+          });
+
+          $(window).scroll(function(){
+				        console.log($(this).scrollTop());
+
+				    if($(this).scrollTop() > 380){
+					    $('.main1-kotoba').fadeIn(1000);
+				    }
+
+				    if($(this).scrollTop() > 545){
+					    $('.main1-1').fadeIn(1000);
+				    }
+
+            if($(this).scrollTop() > 950){
+					    $('.hr1').animate({width:"1065px"},1000);
+				    }
+
+            if($(this).scrollTop() > 1174){
+					    $('.main2').fadeIn(1000);
+				    }
+
+            if($(this).scrollTop() > 1220){
+					    $('.hr2').animate({left:"0%"},1000);
+				    }
+
+            if($(this).scrollTop() > 1225){
+              $('.enn1').fadeIn(1000);
+            }
+
+            if($(this).scrollTop() > 1480){
+					    $('.gaiyou-kotoba').fadeIn(1000);
+				    }
+
+            if($(this).scrollTop() > 1480){
+					    $('.hr3').animate({left:"40%"},1000);
+				    }
+
+            if($(this).scrollTop() > 1480){
+              $('#jigyo').fadeIn(1000);
+            }
+
+            if($(this).scrollTop() > 1515){
+              $('.jigyo-haikei').fadeIn(1000);
+            }
+
+            if($(this).scrollTop() > 1515){
+              $('.campas').fadeIn(1000);
+            }
+
+            if($(this).scrollTop() > 1515){
+              $('.create').fadeIn(1000);
+            }
+
+            if($(this).scrollTop() > 2060){
+					    $('.campas-kotoba').fadeIn(1000);
+				    }
+
+            if($(this).scrollTop() > 2065){
+					    $('.hr4').animate({left:"14%"},1000);
+				    }
+
+            if($(this).scrollTop() > 2750){
+					    $('.create-kotoba').fadeIn(1000);
+				    }
+
+            if($(this).scrollTop() > 2755){
+					    $('.hr5').animate({left:"14%"},1000);
+				    }
+
+            if($(this).scrollTop() > 3000){
+					    $('.katsudou').fadeIn(1000);
+				    }
+
+            if($(this).scrollTop() > 3000){
+					    $('.copy').fadeIn(1000);
+				    }
+			    });
+        });
+    </script>
+  </head>
+  <body>
+    <div id="top">
+      <div id="header">
+        <div class="header-menu">
+          <p>Being as a person</p>
+        </div><!--header-menu-->
+
+        <div class="line_box">
+    			<a href="#"></a>
+    			<div class="line"></div>
+    			<div class="line"></div>
+    			<div class="line"></div>
+    		</div><!--line_box-->
+      </div><!--header-->
+
+      <div class="menu">
+        <p class="colorfilter-base">
+          <img src="img/syasinn1.jpg" alt="カラーフィルタ効果の対象画像" class="colorfilter-image">
+        </p>
+        <ul class="hum-menu">
+          <a href="file:///Volumes/ADATA%20HV620S/red%20HP%20%E4%BB%AE/red%20top.html#"><li>-Top-</li></a>
+      		<a href="file:///Volumes/ADATA%20HV620S/red%20HP%20%E4%BB%AE/red%20concept.html#"><li>-Company-</li></a>
+      		<a href="file:///Volumes/ADATA%20HV620S/red%20HP%20%E4%BB%AE/red%20contact.html#"><li>-Contact-</li></a>
+      	</ul><!--hum-menu-->
+      </div><!--menu-->
+
+      <div class="top-img">
+        <div class="top-syasinn">
+          <img src="img/syasinn1.jpg">
+        </div><!--top-syasinn-->
+        <div class="top-kotoba">
+          <p1>日本の</p1>
+          <p2>教育</p2>
+          <p3>を世界水準に</p3>
+        </div><!--top-kotoba-->
+      </div><!--top-img-->
+    </div><!--top-->
+
+    <div id="main1">
+      <div class="main1-kotoba">
+        <p>「人としてあれ」</p>
+      </div>
+      <div class="main1-1">
+        <video src="redcm.mp4" controls></video>
+      </div>
+    </div><!--main1-->
+
+    <div id="sub1">
+      <div class="hr1">
+        <hr color="black">
+      </div><!--hr1-->
+
+      <div class="main2">
+        <p1>挑戦者の</p1>
+        <p2>学び・経験・挑戦</p2>
+        <p3>を支える企業としてあるために</p3>
+      </div><!--main2-->
+
+      <div class="hr2">
+        <hr color="#000000">
+      </div><!--hr2-->
+    </div>
+
+    <div id="gaiyou">
+      <div class="enn1">
+        <a class="circle" href="#"></a>
+        <div class="hr3">
+          <hr color="black">
+        </div><!--hr3-->
+        <div class="gaiyou-kotoba">
+          <p>会社概要</p>
+        </div><!--gaiyou-kotoba-->
+      </div><!--enn-->
+    </div><!--gaiyou-->
+
+    <div id="jigyo">
+      <div class="jigyo-haikei">
+        <img src="img/haikei3.jpg">
+      </div><!--jigyo-haikei-->
+      <div class="campas">
+        <div class="campas-top">
+          <h3>教育サービス　CAMPAS</h3>
+          <p>月額制　教育サービス</p>
+        </div><!--campas-top-->
+        <div class="campas-main">
+          <img src="img/campas.jpg">
+          <div class="main1-migi">
+            <div class="enn2">
+              <a class="circle" href="#"></a>
+              <div class="hr4">
+                <hr color="black">
+              </div><!--hr4-->
+              <div class="campas-kotoba">
+                <p>Enter</p>
+              </div><!--campas-kotoba-->
+            </div><!--enn-->
+            <div class="main1-migi-bun">
+              <p>ダブルワーク・フリーター立場や性別問わず<br>
+              専門的な分野に挑戦したい若者に選択肢を与<br>
+              え続けより社会性の高い教育を与える
+              </p>
+            </div><!--main1-migi-bun-->
+          </div><!--main1-migi-->
+        </div><!--campas-main-->
+      </div><!--campas-->
+      <div class="create">
+        <div class="create-top">
+          <h3>R　Create</h3>
+          <p>映像・Web制作事業</p>
+        </div><!--create-top-->
+
+        <div class="create-main">
+          <img src="img/create.jpg">
+          <div class="main2-migi">
+            <div class="enn2">
+              <a class="circle" href="#"></a>
+              <div class="hr5">
+                <hr color="black">
+              </div><!--hr5-->
+              <div class="create-kotoba">
+                <p>Enter</p>
+              </div><!--create-kotoba-->
+            </div><!--enn-->
+
+            <div class="main2-migi-bun">
+              <p>映像制作からサイトの制作・運用を行い企業<br>
+              様のブランディングにおける全てのニ<br>
+              ーズに答えます
+              </p>
+            </div><!--main2-migi-bun-->
+          </div><!--main2-migi-->
+        </div><!--create-main-->
+      </div><!--create-->
+    </div><!--jigyo-->
+
+
+    <div class="sonota">
+      <ul class="katsudou">
+        <li>
+          <h3>若手人材育成活動</h3>
+          <img src="img/katudou.jpg">
+          <p>「社会に出る前に社会を知る」をテーマに就職活動<br>
+          の支援・サークルの運営を行っております。
+          </p>
+        </li>
+
+        <li>
+          <h3>若手人材育成活動</h3>
+          <img src="img/katudou.jpg">
+          <p>「社会に出る前に社会を知る」をテーマに就職活動<br>
+          の支援・サークルの運営を行っております。
+          </p>
+        </li>
+
+        <li>
+          <h3>ゴーストキッチン</h3>
+          <img src="img/katudou.jpg">
+          <p>「社会に出る前に社会を知る」をテーマに就職活動<br>
+          の支援・サークルの運営を行っております。
+          </p>
+        </li>
+      </ul><!--katsudou-->
+    </div><!--sonota-->
+
+    <div class="copy">
+      <p>copyright red .inc</p>
+    </div><!--copy-->
+
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

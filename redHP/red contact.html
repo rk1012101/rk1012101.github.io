@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style3.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+	  <script>
+        $(function(){
+          $(".line_box").on("click",function(){
+            $(".top-img").toggle(1000);
+            $(".form").toggle();
+            $(".menu").toggle(1000);
+          });
+        });
+    </script>
+  </head>
+  <body>
+    <div id="top">
+      <div id="header">
+        <div class="line_box">
+    			<a href="#"></a>
+    			<div class="line"></div>
+    			<div class="line"></div>
+    			<div class="line"></div>
+    		</div><!--line_box-->
+      </div><!--header-->
+
+      <div class="menu">
+        <p class="colorfilter-base">
+          <img src="img/syasinn1.jpg" alt="カラーフィルタ効果の対象画像" class="colorfilter-image">
+        </p>
+        <ul class="hum-menu">
+      		<a href="file:///Volumes/ADATA%20HV620S/red%20HP%20%E4%BB%AE/red%20top.html#"><li>-Top-</li></a>
+      		<a href="file:///Volumes/ADATA%20HV620S/red%20HP%20%E4%BB%AE/red%20concept.html#"><li>-Company-</li></a>
+      		<a href="file:///Volumes/ADATA%20HV620S/red%20HP%20%E4%BB%AE/red%20contact.html#"><li>-Contact-</li></a>
+      	</ul><!--hum-menu-->
+      </div><!--menu-->
+
+      <div class="top-img">
+        <div class="top-syasinn">
+          <img src="img/syasinn1.jpg">
+        </div><!--top-syasinn-->
+        <div class="top-kotoba">
+          <p>お問い合わせ</p>
+        </div><!--top-kotoba-->
+      </div><!--top-img-->
+    </div><!--top-->
+
+    <div class="form">
+      <div class="form-1">
+        <p>お名前（法人の方は会社の記入を御願い致します）</p>
+        <input type="text" name="yourname">
+      </div><!--form-1-->
+
+      <div class="form-1">
+        <p>項目</p>
+        <input type="text" name="yourname">
+      </div><!--form-1-->
+
+      <div class="form-2">
+        <p>お問い合わせ内容</p>
+        <input type="text" name="yourname">
+      </div><!--form-2-->
+
+      <div class="btn">
+        <h2>送信</h2>
+      </div><!--btn-->
+
+      <div class="copy">
+        <p>copyright red .inc</p>
+      </div><!--copy-->
+
+    </div><!--form-->
+
+  </body>
+</html>
